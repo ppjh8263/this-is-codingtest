@@ -1,5 +1,9 @@
+import os,sys
+sys.path.append(
+    os.path.dirname(
+        os.path.abspath(os.path.dirname(__file__))))
+        
 from check_time import check_time
-
 """
 각 자리가 숫자(0부터 9)로만 이루어진 문자열 S가 주어졌을 때, 
 왼쪽부터 오른쪽으로 하나씩 모든 숫자를 확인하여 숫자 사이에 'x' 혹은 '+' 연산을 넣어

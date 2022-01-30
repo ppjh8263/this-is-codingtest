@@ -1,4 +1,10 @@
+import os,sys
+sys.path.append(
+    os.path.dirname(
+        os.path.abspath(os.path.dirname(__file__))))
+        
 from check_time import check_time
+
 """
 어떠한 수 N이 1이 될때 까지 다음의 두 과정 중 하나를 반복적으로 선택하여 수행하려고 합니다.
 단. 두번째 연산은 N이 K로 나누어 떨어질 때만 선택 할 수 있습니다.
